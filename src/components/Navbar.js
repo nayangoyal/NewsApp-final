@@ -10,7 +10,7 @@ export class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-            <img className="mx-3" src={favico} alt="favico" height="50px" width="60px"/>
+                <img className="mx-3" src={favico} alt="favico" height="50px" width="60px"/>
                 <Link className="navbar-brand" to="/">NewsMonkey</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
